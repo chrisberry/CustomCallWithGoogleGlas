@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/CustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customername" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/WorkOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/workOrdernumber" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/CustomerAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WorkOrderNumber"
+        android:text="@string/customeraddress" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/CustomerCSZ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CustomerAddress"
+        android:paddingBottom="1dp"
+        android:text="@string/customercsz" >
+
+    </TextView>
+     <TextView
+        android:id="@+id/CustomerPhoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CustomerCSZ"
+        android:paddingBottom="1dp"
+        android:text="@string/customerphonenumber" >
+
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+This is an example of how to make a call from google glass. The GDK is limited at this time and has an odd issue understaning the state of the call listner. 
+For example if you launch a call from a card, once the call has ended your redirected back to the main screen and not you call from activity

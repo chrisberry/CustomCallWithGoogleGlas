@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello Glass</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="start_helloglass">Launch MRM</string> <!-- The phrase used to start the application. -->
+    <string name="start_showOrder">Show Orders</string> <!-- The phrase used to show the orders. -->
+        <string name="call_customer">Call Customer</string> <!-- The phrase used to show the orders. -->
+    
+    <string name="stop">Goodbye Glass</string>
+    <string name="hello_glass">Hello, Glass!</string>
+    <string name="title_activity_magic">Magic</string>
+    <string name="customername">Customer Name</string>
+    <string name="workOrdernumber">Work Order</string>
+    <string name="customeraddress">Address</string>
+    <string name="customercsz">City, State Zip</string>
+    <string name="customerphonenumber">Customer Phone</string>
+
+</resources>
